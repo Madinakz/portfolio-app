@@ -1,0 +1,35 @@
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 622px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+}
+
+.introduce-main{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.introduce{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.my-cv{
+    width: 200px;
+    height: 56px;
+    background-color: #FD5A14;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}

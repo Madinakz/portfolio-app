@@ -1,0 +1,36 @@
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    margin-right: 87px;
+    height: 100px;
+}
+
+.Headerleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-left: 80px;
+    color: white;
+}
+
+.Headerright{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.Transparent{
+    background-color: transparent ;
+    border: none; 
+    margin-right: 40px;
+    font-size: 14px;
+    color: white;
+    /* font-family: 'Inter'" */
+    
+}

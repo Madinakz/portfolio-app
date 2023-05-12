@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
+  width: 1440px;
+  /* height: 622px; */
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #130125;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me-photo{
+  width:280px;
+  height:328px;
+  padding-top: 55px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-me-main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: start;
+}
+
+.about-me{
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  height:328px;
+  padding-top: 149px;
+  padding-bottom: 169px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.about-me-text{
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-me-description{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  width: 629px;
+  height: 90px;
+}
+.skills{
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-description{
+  margin-right: 25px;
+}
+
+.experience-main{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
+ 
+}
+
+.experience-title{
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.my-experience{
+  display: flex;
+  flex-direction: row;
 }
