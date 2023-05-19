@@ -1,0 +1,53 @@
+
+.about-me{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 169px;
+}
+
+.me-photo{
+    width:280px;
+    height:328px;
+    padding-top: 70px;
+}
+  
+.about-me-main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+  
+.about-me-text{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.about-me-description{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    width: 629px;
+}
+
+.greypoint{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
